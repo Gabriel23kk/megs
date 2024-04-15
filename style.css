@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Merriweather', serif;
+}
+.link-site {
+    margin-left: 40px;
+    padding-right: 5px;
+    float: right;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+}
+.link-site:visited {
+    color: inherit;
+}
+.call {
+    width: 200px;
+}
+
+.link-site:hover {
+    background-color: rgb(255, 20, 160);
+    height: 38px;
+    transition: background 1.5s;
+    cursor: pointer;
+    
+    
+}
+
+.titulo-do-site {
+    display: inline-block;
+    margin-top: 4px;
+    padding-left: 10px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+header {
+    border: 2px solid #000000;
+    
+    border-left: none;
+    border-right: none;
+    height: 40px;
+    background-color: black;
+    color: #ffffff;
+    position: fixed;
+    top: 0px;
+    width: 1280px;
+
+    
+}
+
+.home {
+    text-align: center;
+    margin-top: 16%;
+    
+    
+}
+.home p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+.button {
+  padding: 10px;
+  display: inline-block;
+  background-color: #FF1493; 
+  border: solid, black 1px;
+  border-radius: 20px;
+  text-decoration: none;
+  color: black;
+  font-size: 17px;
+  font-weight: 550;
+  
+}
+
+.button:hover {
+    padding: 15px;
+    border-radius: 30px;
+    background-color: rgb(255, 20, 160);
+    opacity: 0.8;
+    transition: all 0.4s;
+    
+}
+.image-mags {
+    width: 250px;
+    display: inline-block;
+    position: fixed;
+    margin-left: 440px;
+    top: 382px;
+    cursor: pointer;
+    z-index: 5;
+}
+
+.gallery {
+    margin-left: 150px;
+    
+    
+}
+.gallery-2 {
+    margin-left: 125px;
+}
+.casa {
+    margin-right: 25px;
+}
+.casa-2 {
+    margin-left: 25px;
+}
+h2 {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 15px;
+    padding-top: 15px;
+    border-top: 3px solid #ffffff;
+    width: 200px;
+    margin-left: 550px;
+    
+}
+
+footer {
+    color: #ffffff;
+    background-color: black;
+    padding-left: 30px;
+    position: sticky;
+    
+}
+.rede-social {
+    color: #ffffff;
+}
+
+@media screen and (max-width: 1241px){
+    .home {
+        text-align: center;
+        width: 100%;
+        height: 50%;
+        
+    }
+    h2 {
+        margin-left: 100px;
+    }
+    .gallery {
+        margin: 0;
+      
+    }
+    .gallery-2 {
+        margin: 0;
+    }
+    .casa {
+        display: block;
+        margin-bottom: 10px;
+        margin-left: 45px;
+        padding-left: 0;
+        text-align: center;
+
+    }
+    .casa-2 {
+        display: block;
+        margin-bottom: 10px;
+        padding: 0;
+        margin-left: 45px;
+    }
+    .image-background {
+        width: 100vw;
+        height: 100%;
+    }
+    header {
+        display: none;
+    }
+    footer {
+        width: 100%;
+    }
+    .image-mags {
+        display: block;
+        margin: 250px 0 0 185px;
+        position: fixed;
+        
+    }
+
+    
+}
