@@ -11,10 +11,9 @@
     font-size: 18px;
     font-weight: 400;
     text-decoration: none;
-}
-.link-site:visited {
     color: inherit;
 }
+
 .call {
     width: 200px;
 }
@@ -47,7 +46,7 @@ header {
     position: fixed;
     top: 0px;
     width: 1280px;
-
+    
     
 }
 
@@ -87,29 +86,53 @@ h1 {
     transition: all 0.4s;
     
 }
+.Container-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .image-mags {
     width: 250px;
     display: inline-block;
     position: fixed;
-    margin-left: 440px;
+    margin-left: 450px;
+    float: right;
     top: 382px;
     cursor: pointer;
     z-index: 5;
 }
 
 .gallery {
-    margin-left: 150px;
     
-    
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.gallery-2 {
-    margin-left: 125px;
+.gallery-2{
+    margin-right: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .casa {
     margin-right: 25px;
+    border-radius: 150px;
+}
+.casa:hover {
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
 }
 .casa-2 {
     margin-left: 25px;
+    border-radius: 150px;
+    
+}
+.casa-2:hover {
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
 }
 h2 {
     text-align: center;
@@ -133,7 +156,7 @@ footer {
     color: #ffffff;
 }
 
-@media screen and (max-width: 1241px){
+@media screen and (max-width: 900px){
     .home {
         text-align: center;
         width: 100%;
@@ -143,26 +166,38 @@ footer {
     h2 {
         margin-left: 100px;
     }
-    .gallery {
-        margin: 0;
-      
-    }
+    
     .gallery-2 {
         margin: 0;
+        
     }
-    .casa {
+    .gallery .casa {
         display: block;
+        width: 100px;
+        height: 100px;
+        margin: 0;
         margin-bottom: 10px;
-        margin-left: 45px;
-        padding-left: 0;
-        text-align: center;
+        padding: 10px;
+        
 
     }
-    .casa-2 {
+    .gallery .casa:hover {
+        width: 150px;
+        height: 150px;
+        border-radius: 75px;
+    }
+    .gallery-2 .casa-2 {
         display: block;
+        width: 100px;
+        height: 100px;
+        margin: 0;
         margin-bottom: 10px;
-        padding: 0;
-        margin-left: 45px;
+        padding: 10px;   
+    }
+    .gallery-2 .casa-2:hover {
+        width: 150px;
+        height: 150px;
+        border-radius: 75px;
     }
     .image-background {
         width: 100vw;
